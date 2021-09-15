@@ -1,0 +1,5 @@
+
+spring.config.import=optional:configserver:http://localhost:8888
+
+spring.applicaiton.name=currency-conversion
+server.port=8100

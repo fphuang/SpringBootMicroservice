@@ -1,0 +1,5 @@
+package com.in28min.microservices.limitsservice.bean;
+
+public class Limits {
+
+}

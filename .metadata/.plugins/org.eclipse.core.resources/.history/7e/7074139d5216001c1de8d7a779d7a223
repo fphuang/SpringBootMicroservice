@@ -1,0 +1,5 @@
+package com.in28min.microservices.apigateway;
+
+public class LoggingFilter {
+
+}

@@ -1,0 +1,6 @@
+package com.in28min.microservices.currencyconversionservice;
+
+@FeignClient(name="currency-exchange")
+public interface CurrencyExchangeProxy {
+
+}

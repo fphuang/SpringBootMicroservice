@@ -1,0 +1,11 @@
+package com.in28min.microservices.limitsservice.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class LimitsController {
+	@GetMapping("/limits")
+	public Limits retrieveLimits() {
+		
+	}
+}

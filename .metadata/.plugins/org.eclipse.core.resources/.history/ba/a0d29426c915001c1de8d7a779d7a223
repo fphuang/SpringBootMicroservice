@@ -1,0 +1,6 @@
+package com.in28min.microservices.currencyexchangeservice;
+
+public interface CurrencyExchangeRepository 
+	extends JpaRepository <CurrencyExchange, Long> {
+
+}

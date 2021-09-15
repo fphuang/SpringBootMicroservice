@@ -1,0 +1,11 @@
+package com.in28min.microservices.currencyexchangeservice;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class CurrencyExchange {
+	private Long id;
+	private String from;
+	private String to;
+	private BigDecimal conversionMultiple;
+}

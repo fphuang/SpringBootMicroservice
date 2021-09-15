@@ -1,0 +1,17 @@
+package com.in28min.microservices.limitsservice;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.in28min.microservices.limitsservice.configuration.Configuration;
+
+@SpringBootApplication
+public class LimitsServiceApplication {
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(LimitsServiceApplication.class, args);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.in28min.microservices.currencyconversionservice;
+
+public class CurrencyConversion {
+	private Long id;
+	private String from;
+	private String to;
+	private BigDecimal quantity;
+	private BigDecimal conversionMultiple;
+	private BigDecimal totalCalculatedAmount;
+}
